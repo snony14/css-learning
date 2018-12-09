@@ -9,3 +9,4 @@ By default a block level element's content is 100 % of the width of its parent e
 # How do elements interact with one another? # 
 By default, block-level elements are laid out in the direction that blocks display in the writing mode of the document -- each one will appear on a new line below the last one, and they will be separated by any margin that is set on them. Block-level elements are laid out vertically.
 
+if two adjacent elements both have the margin set on them and the two margins touch, the larger of the two remains, and the smaller one disappears -- this is called margin collapsing.
