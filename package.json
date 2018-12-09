@@ -1,0 +1,35 @@
+{
+  "name": "css-learn",
+  "version": "1.0.0",
+  "description": "I will cover some parts of css which I consider to be very important",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --output-public-path=/dist/",
+    "build": "webpack --config ./webpack.config.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snony14/css-learning.git"
+  },
+  "author": "moiseLubwimi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snony14/css-learning/issues"
+  },
+  "homepage": "https://github.com/snony14/css-learning#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^2.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
